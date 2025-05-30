@@ -1,0 +1,125 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hello",
+          "Good day",
+          "Is anyone there?",
+          "How are you?",
+          "hii"
+        ],
+        "responses": [
+          "Hey there! Welcome to StoryHaven!",
+          "Hello, thanks for visiting StoryHaven!",
+          "Hi there, how can I help you find your next great read?",
+          "Hi! Welcome to StoryHaven Bookstore. How can I assist you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Take care"
+        ],
+        "responses": [
+          "See you later! Thanks for visiting StoryHaven.",
+          "Goodbye! Hope to see you again soon.",
+          "Take care! Come back soon to find more amazing books."
+        ]
+      },
+      {
+        "tag": "book_inquiry",
+        "patterns": [
+          "What books do you have?",
+          "Tell me about the books in your store.",
+          "What genres do you offer?",
+          "Can you recommend some books?"
+        ],
+        "responses": [
+          "We have a wide variety of books, including fantasy, science fiction, romance, and mystery.",
+          "At StoryHaven, we offer a diverse collection of genres to suit every reader's taste!",
+          "You can find books in genres like fantasy, thriller, fiction, non-fiction, and more."
+        ]
+      },
+      {
+        "tag": "best_sellers",
+        "patterns": [
+          "What are the best-selling books?",
+          "Which books are popular right now?",
+          "What are your top-selling books?"
+        ],
+        "responses": [
+          "Our bestsellers include 'The Night Ends with Fire' and 'Infinite World'.",
+          "Some of our current top-selling books are 'Dune' and 'Queen of Nothing'.",
+          "Right now, our best sellers are 'The Warden' and 'The Night Ends with Fire'."
+        ]
+      },
+      {
+        "tag": "recommendations",
+        "patterns": [
+          "Can you recommend a book?",
+          "What book should I read next?",
+          "Do you have any book recommendations?"
+        ],
+        "responses": [
+          "If you like fantasy, I'd recommend 'Queen of Nothing' by Holly Black.",
+          "For sci-fi fans, 'Dune' by Frank Herbert is a must-read!",
+          "I recommend 'The Warden' for a gripping, action-packed story."
+        ]
+      },
+      {
+        "tag": "order_inquiry",
+        "patterns": [
+          "Where is my order?",
+          "When will my book arrive?",
+          "Has my order been shipped?"
+        ],
+        "responses": [
+          "Your order will arrive within 2-4 days. You will receive a tracking number soon.",
+          "Shipping takes about 2-4 days. You'll get an email with tracking details."
+        ]
+      },
+      {
+        "tag": "payment_methods",
+        "patterns": [
+          "What payment methods do you accept?",
+          "Can I pay with PayPal?",
+          "Do you accept credit cards?"
+        ],
+        "responses": [
+          "We accept all major credit cards and PayPal.",
+          "We accept VISA, MasterCard, and PayPal for your convenience."
+        ]
+      },
+      {
+        "tag": "store_hours",
+        "patterns": [
+          "What are your store hours?",
+          "When is your bookstore open?",
+          "What time do you close?"
+        ],
+        "responses": [
+          "We are open from 9 AM to 9 PM every day!",
+          "Our store is open every day from 9 AM to 9 PM."
+        ]
+      },
+      {
+        "tag": "jokes",
+        "patterns": [
+          "Tell me a joke",
+          "Do you know a joke?",
+          "Make me laugh!"
+        ],
+        "responses": [
+          "Why don't books ever get cold? Because they have great covers!",
+          "Why did the bookworm go to the library? To check out the latest stories!"
+        ]
+      }
+    ]
+  }
+  
